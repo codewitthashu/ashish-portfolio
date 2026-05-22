@@ -1,5 +1,4 @@
-﻿@'
-"use client";
+﻿
 
 import { useState, useEffect } from "react";
 
@@ -240,4 +239,3 @@ export default function Home() {
     </main>
   );
 }
-'@ | Out-File -FilePath src\app\page.tsx -Encoding utf8
